@@ -1,6 +1,8 @@
 # Multiprocessing and Scipy NLLS Regression.py by Ned Charles, April 2020
-# An example Python script that walks through how to do a nonlinear, least squares (NLLS) regression fit on simulated data.
-# Reference: https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html#scipy.optimize.curve_fit
+# A Python script that compares NLLS Regression fitting using Scipy least_squares in a standard for loop versus parallel processing
+# with the multiprocessing Pool capabilities
+# Reference: https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.least_squares.html#scipy.optimize.least_squares
+# and: https://docs.python.org/3.8/library/multiprocessing.html
 #############################################################################################################
 # Import needed Python math and fitting modules
 import numpy as np
